@@ -10,5 +10,6 @@ class App < Sinatra::Base
   get '/hometown' do
     resp.status = 200
     "My hometown is "
+  end
   
 end
